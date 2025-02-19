@@ -1,0 +1,13 @@
+<appian-plugin name="Document Splitter" key="documentSplitter">
+
+    <plugin-info>
+        <description>A smart service for Appian that split a word document</description>
+        <vendor name="Xebia" url="https://xebia.com/" />
+        <version>1.1.0</version>
+        <application-version min="23.2" />
+    </plugin-info>
+
+    <smart-service name="Document Splitter Using Headings" key="DocumentSplitterUsingHeading"
+                   class="com.xebia.documentSplitter.DocumentSplitterUsingHeading" />
+
+</appian-plugin>
